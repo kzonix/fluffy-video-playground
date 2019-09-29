@@ -1,6 +1,8 @@
 import numpy as np
 import cv2
 
+print("Version %s" % cv2.__version__)
+
 cap = cv2.VideoCapture(0)
 
 while True:

@@ -12,7 +12,7 @@ current_env=${my_array[-1]}
 if [[ "${current_env}" == "${ENV_NAME}" ]];
 then
     echo "Success!"
-    echo "ENVIRONMENT INFO ${current_env}"
+    echo "Conda env :::${current_env}"
     conda install opencv > /dev/null
     conda install numpy > /dev/null
     conda install pip > /dev/null
