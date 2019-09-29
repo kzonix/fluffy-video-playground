@@ -16,8 +16,6 @@ then
     conda install opencv > /dev/null
     conda install numpy > /dev/null
     conda install pip > /dev/null
-    conda install sanic > /dev/null
-    pip install opencv-python > /dev/null
     pip install -r requirements.txt > /dev/null
     echo "All required packages have been installed to the env - ${current_env}"
 else
