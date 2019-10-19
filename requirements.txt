@@ -1,5 +1,6 @@
+imutils
+flask
+matplotlib
 numpy
 opencv-python
 opencv-contrib-python
-imutils
-flask

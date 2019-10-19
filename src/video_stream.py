@@ -14,7 +14,6 @@ while True:
     image = np.array(gray, dtype=int)
     image = image.astype(np.uint8)
     # Display the resulting frame
-    print(b'%b' % image)
     cv2.imshow('frame', image)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
